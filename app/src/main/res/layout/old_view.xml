@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/name"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="This is an old layout text View" />
+
+    <TextView
+        android:id="@+id/textInfo"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="text info" />
+
+    <TextView
+        android:id="@+id/counter"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="counter" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:text="This is an old button"
+        android:background="@color/purple_700" />
+
+    <TextView
+        android:id="@+id/changeThis"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:text="counter" />
+</LinearLayout>
